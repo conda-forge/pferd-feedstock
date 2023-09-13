@@ -1,5 +1,5 @@
 {% set name = "pferd" %}
-{% set version = "3.4.3" %}
+{% set version = "3.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pferd-{{ version }}.tar.gz
-  sha256: ca5b26f45edff90a2dd4ef384599775ceb7caf35c4cb2e17da1fbe1f46bf5eca
+  sha256: 90170cb5b7b5421193ba8b73d66899fc2027f3a8f595c10ac97fc6de756df7cf
 
 build:
   noarch: python

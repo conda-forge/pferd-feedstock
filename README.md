@@ -1,11 +1,11 @@
-About pferd
-===========
+About pferd-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pferd-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/pferd/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pferd-feedstock/blob/main/LICENSE.txt)
 
 Summary: Programm zum Flotten Einfachen Runterladen von Dateien
 
