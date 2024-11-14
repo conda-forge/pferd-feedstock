@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pferd-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pferd-{{ version }}.tar.gz
   sha256: 0a92df47581cad5b1643354b6bb49f288653b946e41dc0982fa7ef7018428f80
 
 build:
@@ -18,11 +18,11 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - aiohttp >=3.8.1
     - beautifulsoup4 >=4.10.0
     - rich >=11.0.0
@@ -37,6 +37,7 @@ test:
     - pferd --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://pypi.org/project/pferd/
