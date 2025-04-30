@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pferd
-  version: "3.8.1"
+  version: "3.8.2"
   python_min: '3.11'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pferd-${{ version }}.tar.gz
-  sha256: e8acb0791eb07905f1dce2816f8483be9056f811afe588793f0b516e31d8c759
+  sha256: 6defe3f73153f352869b5b5790f9a0e56614e17d1379f5e26d683318e0426e91
 
 build:
   number: 0
